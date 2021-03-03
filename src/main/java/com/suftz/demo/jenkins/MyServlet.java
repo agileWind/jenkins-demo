@@ -21,7 +21,7 @@ public class MyServlet extends HttpServlet {
 
         req.setAttribute("name","agile");
         req.setAttribute("email","agile@suftz.com");
-        getServletContext().getRequestDispatcher("/WEB-INF/myinfo.jsp").forward(req,resp);
+        req.getRequestDispatcher("/WEB-INF/myinfo.jsp").forward(req,resp);
     }
 
     @Override
