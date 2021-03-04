@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
-        resp.getWriter().write(new HelloWorld().toString());
+        resp.getWriter().write("王彤烨为什么憨批，真的搞不懂");
     }
 
     @Override
