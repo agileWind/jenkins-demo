@@ -19,7 +19,7 @@ public class TestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
-        resp.getWriter().write("这是一个测试请求");
+        resp.getWriter().write("这是一个测试请求哈哈");
     }
 
     @Override
